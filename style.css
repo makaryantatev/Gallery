@@ -1,0 +1,66 @@
+*{
+    background-color: rgb(216, 216, 216);
+}
+.div1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+#labeleffect, #labeldur{
+    margin-top: 10px;
+    color: rgb(62, 62, 62);
+    font-size: 19px;
+    font-weight: 900;
+    font-family: Papyrus;
+}
+option{
+    background-color: rgb(148, 148, 148);
+    color: rgb(238, 238, 238);
+    font-weight: 700;
+    font-family: Papyrus;
+}
+#plus, #minus{
+    margin: 5px;
+    background-color: rgb(148, 148, 148);
+    color: rgb(238, 238, 238);
+    font-size: 17px;
+    font-weight: 900;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#plus{
+    padding: 10px 18px;
+}
+#minus{
+    padding: 10px 20px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+.div2-div1, .div2-div2{
+    display: flex;
+    justify-content: center;
+}
+#mainimg{
+    margin: 5px;
+    width: 500px;
+    border-radius: 15px;
+    border: 5px solid rgb(163, 163, 163);
+}
+#img1, #img2, #img3, #img4{
+    margin: 5px;
+    width: 200px;
+    border-radius: 10px;
+}
+.div2-div2 img{
+    opacity: 0.9;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.div2-div2 img:hover{
+    opacity: 1;
+}
